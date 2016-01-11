@@ -1,0 +1,50 @@
+---
+output:
+  html_document:
+    keep_md: true
+  md_document:
+    variant: markdown_github
+---
+
+`scamtracker` is an R pacakge interface to the BBB ScamTracker <https://www.bbb.org/scamtracker/us>
+
+The following functions are implemented:
+
+- `bbb_search`: Search the BBB ScamTracker for incidents
+- `scam_details`:	Retrive details about a BBB spam report
+
+### News
+
+- Version  released
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/scamtracker")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, error=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r}
+library(scamtracker)
+
+# current verison
+packageVersion("scamtracker")
+
+```
+
+### Test Results
+
+```{r}
+library(scamtracker)
+library(testthat)
+
+date()
+
+test_dir("tests/")
+```
+
