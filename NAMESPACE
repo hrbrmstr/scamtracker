@@ -2,6 +2,8 @@
 
 export(bbb_search)
 export(scam_details)
+export(scam_types)
 import(httr)
 import(jsonlite)
-import(stringr)
+import(stringi)
+import(tibble)

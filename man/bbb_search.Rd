@@ -4,19 +4,19 @@
 \alias{bbb_search}
 \title{Search the BBB ScamTracker for incidents}
 \usage{
-bbb_search(scam_types = NULL, scam_name = NULL, date_start = NULL,
-  date_end = NULL)
+bbb_search(keywords = NULL, scam_types = NULL, country = c("CAN-USA",
+  "CAN", "USA"), state = NULL, date_start = Sys.Date(),
+  date_end = Sys.Date())
 }
 \arguments{
+\item{keywords}{keywords}
+
 \item{scam_types}{scam_types}
 
-\item{scam_name}{scam_name}
+\item{country}{country}
 
-\item{date_start}{date_start}
-
-\item{date_end}{date_end}
+\item{date_start, date_end}{search date start/end (defaults to today)}
 }
 \description{
-Search the BBB ScamTracker for incidents
+NOTE: Search API only returns max of 500 results.
 }
-

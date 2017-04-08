@@ -4,6 +4,6 @@
 #'
 #' @name scamtracker
 #' @docType package
-#' @author Bob Rudis (@@hrbrmstr)
-#' @import httr stringr jsonlite
+#' @author Bob Rudis (bob@@rud.is)
+#' @import httr stringi jsonlite tibble
 NULL

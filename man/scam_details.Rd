@@ -12,4 +12,3 @@ scam_details(pkid = NULL)
 \description{
 Retrive details about a BBB spam report
 }
-

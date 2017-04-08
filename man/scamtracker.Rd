@@ -9,6 +9,5 @@
 Website: \url{https://www.bbb.org/scamtracker/us}
 }
 \author{
-Bob Rudis (@hrbrmstr)
+Bob Rudis (bob@rud.is)
 }
-
